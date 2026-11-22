@@ -7,7 +7,7 @@ import {
     getDoc,
     addDoc,
     updateDoc,
-    deletDoc,
+    deleteDoc,
     query,
     where
 } from "./config.js";
