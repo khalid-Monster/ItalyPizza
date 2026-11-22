@@ -8,7 +8,7 @@ import {
     getDoc,
     addDoc,
     updateDoc,
-    deletDoc,
+    deleteDoc,
     query,
     where
     } from "https://www.gstatic.com/firebasejs/13.4.0/firebase-firestore.js";
