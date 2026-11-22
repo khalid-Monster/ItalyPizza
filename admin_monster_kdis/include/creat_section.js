@@ -56,7 +56,7 @@ document.querySelector("#creatSection").addEventListener("submit",async (e) => {
 
             // استخراج رابط الصورة
             const { data: imageData } = supabase.storage
-                .from("MenuImage")
+                .from("ItalyPizza")
                 .getPublicUrl(data.path);
             //console.log("رابط الصورة:", imageData.publicUrl);
 
