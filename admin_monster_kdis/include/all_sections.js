@@ -63,7 +63,7 @@ async function loadeSections() {
                         });
                         await Promise.all(deletItemsOne);
 
-                        const {error : storageaerror } = await supabase.storage.from('MenuImage').remove([sImage]);
+                        const {error : storageaerror } = await supabase.storage.from('ItalyPizza').remove([sImage]);
 
                         await deleteDoc(doc(db,"sections",sectionId));
                         sectionbody.remove();
